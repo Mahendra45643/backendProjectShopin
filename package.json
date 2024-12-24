@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-web-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler for discovering product URLs on e-commerce websites.",
+  "main": "src/crawler.js",
+  "scripts": {
+    "start": "node src/crawler.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "web-crawler",
+    "e-commerce",
+    "product-urls",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
